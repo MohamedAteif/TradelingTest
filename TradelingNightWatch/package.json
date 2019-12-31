@@ -1,0 +1,14 @@
+{
+  "name": "binance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nightwatch.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "ateif",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^1.3.2"
+  }
+}

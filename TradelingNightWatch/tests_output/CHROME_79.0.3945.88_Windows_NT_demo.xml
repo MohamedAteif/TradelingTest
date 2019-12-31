@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="demo"
+    errors="0" failures="1" hostname="" id="" package="demo" skipped="0"
+    tests="2" time="35.33" timestamp="">
+  
+    <testcase name="first end-to-end test" classname="demo" time="29.00" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="second end-to-end test" classname="demo" time="6.338" assertions="3">
+
+    
+
+      <failure message="Testing if element [0;33m&lt;input#FormRow-BUY-total&gt;[0m contains text [0;33m&#39;100.00000000&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;100.00000000&#39;&#34;[0m but got: [0;31m&#34;does not contain &#39;100.00000000&#39;&#34;[0m [0;90m(5443ms)[0m">    at Object.second end-to-end test (C:\Users\mgalal\Desktop\learnAutomation\tests\demo.js:26:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+
+    <failure message="    at Object.second end-to-end test (C:\Users\mgalal\Desktop\learnAutomation\tests\demo.js:26:17)">    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
