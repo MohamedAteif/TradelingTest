@@ -1,0 +1,151 @@
+# Created at 2019-12-31T15:43:09.934
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+
+
+# Created at 2019-12-31T15:43:19.264
+Unexpected IOException with stream: [32m[2019-12-31 15:43:19,263] [INFO ] [main] CommenUsedMethods.CommenMethods (CommenMethods.java:104) - wait ETH/BTC, Trial No.: 0 
+
+[m
+
+# Created at 2019-12-31T15:43:19.659
+Unexpected IOException with stream: [32m[2019-12-31 15:43:19,657] [INFO ] [main] CommenUsedMethods.CommenMethods (CommenMethods.java:141) - Clicking ETH/BTC
+[m
+
+# Created at 2019-12-31T15:43:19.996
+Unexpected IOException with stream: [32m[2019-12-31 15:43:19,995] [INFO ] [main] CommenUsedMethods.CommenMethods (CommenMethods.java:104) - wait chart view, Trial No.: 0 
+
+[m
+
+# Created at 2019-12-31T15:43:21.193
+Unexpected IOException with stream: [32m[2019-12-31 15:43:21,188] [INFO ] [main] CommenUsedMethods.CommenMethods (CommenMethods.java:104) - wait chart view, Trial No.: 1 
+
+[m
+
+# Created at 2019-12-31T15:43:23.333
+Unexpected IOException with stream: [32m[2019-12-31 15:43:23,331] [INFO ] [main] CommenUsedMethods.CommenMethods (CommenMethods.java:156) - Verifying chart Header
+
+[m
+
+# Created at 2019-12-31T15:43:23.434
+Unexpected IOException with stream: [32m[2019-12-31 15:43:23,433] [INFO ] [main] CommenUsedMethods.CommenMethods (CommenMethods.java:158) - Verification is Successfully done 
+
+[m
+
+# Created at 2019-12-31T15:43:24.074
+Unexpected IOException with stream: [32m[2019-12-31 15:43:24,072] [INFO ] [main] CommenUsedMethods.CommenMethods (CommenMethods.java:156) - Verifying Exchange Header
+
+[m
+
+# Created at 2019-12-31T15:43:24.113
+Unexpected IOException with stream: [32m[2019-12-31 15:43:24,112] [INFO ] [main] CommenUsedMethods.CommenMethods (CommenMethods.java:158) - Verification is Successfully done 
+
+[m
+
+# Created at 2019-12-31T15:43:24.417
+Unexpected IOException with stream: [32m[2019-12-31 15:43:24,416] [INFO ] [main] CommenUsedMethods.CommenMethods (CommenMethods.java:156) - Verifying price  Header
+
+[m
+
+# Created at 2019-12-31T15:43:24.464
+Unexpected IOException with stream: [32m[2019-12-31 15:43:24,463] [INFO ] [main] CommenUsedMethods.CommenMethods (CommenMethods.java:158) - Verification is Successfully done 
+
+[m
+
+# Created at 2019-12-31T15:43:24.472
+Unexpected IOException: 6,1,binance.BinanceTestCases,firstEndToEnd(binance.BinanceTestCases),null,null,null
+
+
+# Created at 2019-12-31T15:43:24.479
+Unexpected IOException: 5,1,binance.BinanceTestCases,SecondEndToEnd(binance.BinanceTestCases),binance.BinanceTestCases,null,null
+
+
+# Created at 2019-12-31T15:43:24.501
+Unexpected IOException with stream: [32m[2019-12-31 15:43:24,500] [INFO ] [main] CommenUsedMethods.CommenMethods (CommenMethods.java:104) - wait price, Trial No.: 0 
+
+[m
+
+# Created at 2019-12-31T15:43:24.527
+Unexpected IOException with stream: [32m[2019-12-31 15:43:24,525] [INFO ] [main] CommenUsedMethods.CommenMethods (CommenMethods.java:141) - Clicking price
+[m
+
+# Created at 2019-12-31T15:43:25.030
+Unexpected IOException with stream: [32m[2019-12-31 15:43:25,029] [INFO ] [main] CommenUsedMethods.CommenMethods (CommenMethods.java:104) - wait amount, Trial No.: 0 
+
+[m
+
+# Created at 2019-12-31T15:43:25.057
+Unexpected IOException with stream: [32m[2019-12-31 15:43:25,056] [INFO ] [main] CommenUsedMethods.CommenMethods (CommenMethods.java:141) - Clicking amount
+[m
+
+# Created at 2019-12-31T15:43:25.539
+Unexpected IOException with stream: [32m[2019-12-31 15:43:25,538] [INFO ] [main] CommenUsedMethods.CommenMethods (CommenMethods.java:104) - wait total, Trial No.: 0 
+
+[m
+
+# Created at 2019-12-31T15:43:25.597
+Unexpected IOException with stream: value is : 100.00000000
+
+
+# Created at 2019-12-31T15:43:25.633
+Unexpected IOException: 6,1,binance.BinanceTestCases,SecondEndToEnd(binance.BinanceTestCases),null,null,null
+
+
+# Created at 2019-12-31T15:43:30.512
+Unexpected IOException with stream: PASSED: firstEndToEnd
+
+# Created at 2019-12-31T15:43:30.535
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-31T15:43:30.551
+Unexpected IOException with stream: PASSED: SecondEndToEnd
+
+# Created at 2019-12-31T15:43:30.566
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-31T15:43:30.577
+Unexpected IOException with stream: 
+===============================================
+    Default test
+    Tests run: 2, Failures: 0, Skips: 0
+===============================================
+
+
+# Created at 2019-12-31T15:43:30.586
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-31T15:43:30.616
+Unexpected IOException with stream: [TestNG] Time taken by org.testng.reporters.XMLReporter@44a3ec6b: 20 ms
+
+
+# Created at 2019-12-31T15:43:30.635
+Unexpected IOException with stream: [TestNG] Time taken by org.testng.reporters.EmailableReporter2@134593bf: 10 ms
+
+
+# Created at 2019-12-31T15:43:30.788
+Unexpected IOException with stream: [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@b3d7190: 146 ms
+
+
+# Created at 2019-12-31T15:43:30.893
+Unexpected IOException with stream: [TestNG] Time taken by org.testng.reporters.jq.Main@6fb0d3ed: 95 ms
+
+
+# Created at 2019-12-31T15:43:30.900
+Unexpected IOException with stream: [TestNG] Time taken by [FailedReporter passed=0 failed=0 skipped=0]: 0 ms
+
+
+# Created at 2019-12-31T15:43:30.917
+Unexpected IOException with stream: [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@1068e947: 10 ms
+
+
+# Created at 2019-12-31T15:43:30.925
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+
