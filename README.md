@@ -1,6 +1,27 @@
 # TradeLing_Software_QA_Challenge_MohamedAteif
 
 This project is to solve the QA challenge from Tradeling. The Project is representing three end-to-end tests to demonstrate my test automation abilities. MR. Sharma gave me the option to do the project in two different frameworks to demonstrate my skills in both of them and this is what was done and submited in the repo.
+## Acceptance Criteria
+Write a first end-to-end test that
+
+i.Starts on the landing page
+ii.Click the link view more market
+iii.Clicks the ETH/BTC button leading to Pair trading view
+iv.Verifies that all important information is loaded, e.g. trading chart, limit, market, stop limit input boxes, etc. (leaving this purposefully open to see what you think makes sense to test)
+
+Write a second end-to-end test that
+
+Starts on the Pair trading view
+Enters some valid values into the Buy ETH form
+Make sure the Total field has the correct value (Total = price * Amount)
+Verifies that you can't submit the form since you are not logged in
+Write a data last end-to-end (WebSockets) test that
+
+Starts on the Pair trading view
+Under the hood, the UI uses WebSockets to fetch tickers
+Verifies that the data is loaded in the tickers,
+Verifies there is a consistent stream of data.
+Verifies the time it takes the socket connection to connect is less than 1 second
 
 ## Used Test Framework
 
@@ -28,8 +49,8 @@ This project is to solve the QA challenge from Tradeling. The Project is represe
 URL for download: https://chromedriver.chromium.org/downloads
 
 ## Executing test:
-1- to run the java Test open terminal in the project directory and use the command `mvn install`
-2- to run Nightwatch Test open terminal in the project directory and use the command `node nightwatch -e`
+1. to run the java Test open terminal in the project directory and use the command `mvn install`
+2. to run Nightwatch Test open terminal in the project directory and use the command `node nightwatch -e`
 
 ## Credits
 
