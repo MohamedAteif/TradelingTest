@@ -2,25 +2,25 @@
 
 This project is to solve the QA challenge from Tradeling. The Project is representing three end-to-end tests to demonstrate my test automation abilities. MR. Sharma gave me the option to do the project in two different frameworks to demonstrate my skills in both of them and this is what was done and submited in the repo.
 ## Acceptance Criteria
-first end-to-end test that
-1.Starts on the landing page
-2.Click the link view more market
-3.Clicks the ETH/BTC button leading to Pair trading view
-4.Verifies that all important information is loaded, e.g. trading chart, limit, market, stop limit input boxes, etc. (leaving this purposefully open to see what you think makes sense to test)
 
-second end-to-end test that
-
-1.Starts on the Pair trading view
-2.Enters some valid values into the Buy ETH form
-3.Make sure the Total field has the correct value (Total = price * Amount)
-4.Verifies that you can't submit the form since you are not logged in
-5.Write a data last end-to-end (WebSockets) test that
-
-Starts on the Pair trading view
-Under the hood, the UI uses WebSockets to fetch tickers
-Verifies that the data is loaded in the tickers,
-Verifies there is a consistent stream of data.
-Verifies the time it takes the socket connection to connect is less than 1 second
+1. Write a first end-to-end test that
+   1. Starts on the [landing page](https://www.binance.com/en)
+   1. Click the link [view more market](https://www.binance.com/en/markets)
+   1. Clicks the ETH/BTC button leading to [Pair trading view](https://www.binance.com/en/trade/ETH_BTC)
+   1. Verifies that all important information is loaded, e.g. trading chart, limit, market, stop limit input boxes, etc. (leaving this purposefully open to see what you think makes sense to test)
+   
+1. Write a second end-to-end test that
+   1. Starts on the [Pair trading view](https://www.binance.com/en/trade/ETH_BTC)
+   1. Enters some valid values into the Buy ETH form
+   1. Make sure the Total field has the correct value (Total = price \* Amount)
+   1. Verifies that you can't submit the form since you are not logged in
+   
+1. Write a data last end-to-end (WebSockets) test that
+   1. Starts on the [Pair trading view](https://www.binance.com/en/trade/ETH_BTC)
+   1. Under the hood, the UI uses WebSockets to fetch tickers
+   1. Verifies that the data is loaded in the tickers,
+   1. Verifies there is a consistent stream of data.
+   1. Verifies the time it takes the socket connection to connect is less than 1 second
 
 ## Used Test Framework
 
